@@ -11,4 +11,107 @@
 
 
     tools:context=".MainActivity"
-    />
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:background="#d4d4d4"
+        android:orientation="horizontal"
+        android:outlineProvider="paddedBounds"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0.5"
+            android:background="#FFFFFF"
+            android:paddingRight="30dp"
+            android:text="1"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:background="#d4d4d4"
+            android:orientation="vertical"
+            android:requiresFadingEdge="none"
+            android:weightSum="2"
+
+            >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="1dp"
+                android:layout_weight="1.2"
+                android:background="#f0f0f0"
+                android:gravity="center_vertical"
+                android:paddingRight="10dp"
+                android:text="سورة الفاتحة"
+                android:textSize="20dp"
+                android:textStyle="bold"
+
+                ></TextView>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="0.8"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="#f0f0f0"
+                    android:text="عدد الايات :7"></TextView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#f0f0f0"
+                    android:text="الصفحة :7"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+
+            android:layout_height="40dp"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="0.5"
+            android:background="#FFFFFF"
+            android:paddingLeft="25dp"
+            android:text="مكية"
+            android:textStyle="bold"
+
+            ></TextView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
